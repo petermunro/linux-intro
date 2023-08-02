@@ -1,19 +1,19 @@
-# Linux Fundamentals Course Outline
+# Linux Fundamentals
 
 Linux is used by many large websites - Google, Facebook, Twitter, Yahoo,
-Amazon, YouTube, and many more. Have you wondered why? Learn the
-fundamentals of how to harness Linux's power in this engaging course,
+Amazon, YouTube, and more. Have you wondered why? Learn the
+fundamentals of how to harness Linux\'s power in this engaging course,
 which is intended for those who want to get the most out of using Linux.
 
 I place particular emphasis on the simple yet general concepts
 underlying Linux. These concepts enable you to do very powerful things.
 You will learn:
 
-1.  how Linux's very simple structure gives you great flexibility
-2.  how to hook commands together as 'building blocks' to make more
+1.  how Linux\'s very simple structure gives you great flexibility
+2.  how to hook commands together as \'building blocks\' to make more
     powerful commands
-3.  the common features the 'shell' gives you that can be used with any
-    command
+3.  the common features the \'shell\' gives you that can be used with
+    any command
 4.  how to process files and text
 
 # Approach
@@ -33,7 +33,7 @@ Windows or Mac OS X.
 
 The course may be run either:
 
-1.  Using ‘blank’ PCs on which Red Hat Enterprise Linux or CentOS is
+1.  Using 'blank' PCs on which Red Hat Enterprise Linux or CentOS is
     installed; or
 2.  On Windows, using Virtual Machine software.
 
@@ -47,17 +47,19 @@ On completion of this course, you will:
 - Understand the role of the Shell and the services it provides
 - Know how to set up the Shell Environment
 - Understand and change file permissions
-- Understand the text editors available and use ‘vi’
+- Understand the text editors available and use 'vi'
 - Know how to manipulate processes
 - Use the networking facilities within Linux
 - Understand and use the backup and archive utilities
+
+#
 
 # Course Outline
 
 ## Introduction to Linux
 
-- Beginnings – UNIX
-- What is ‘Open Source’?
+- Beginnings: UNIX
+- What is 'Open Source'?
 - Linux & GNU
 - Linux Distributions
 
@@ -72,7 +74,7 @@ On completion of this course, you will:
 
 - Command Line vs GUI
 - exit / \^D
-- Getting Help – whatis, man, info (for Gnu utilities)
+- Getting Help -- whatis, man, info (for Gnu utilities)
 - Online Documentation
 - Exercise
 
@@ -81,26 +83,26 @@ On completion of this course, you will:
 - Command Structure
 - Displaying Output - echo
 - Getting Current Date and Time - date
-- Listing Who's On - who
+- Listing Who\'s On - who
 - Displaying Files - cat
-- Listing Directories - ls; ls –l; ls –a; ls –al
+- Listing Directories - ls; ls --l; ls --a; ls --al
 - Changing Directory - cd
 - Printing the Working Directory - pwd
 
-## Mod 7 – Viewing Files
+## Mod 7 -- Viewing Files
 
-- Displaying files – cat, more and less
-- Determining File Contents with the ‘file’ command
-- Identifying problem characters with ‘od’ and ‘cat’
+- Displaying files -- cat, more and less
+- Determining File Contents with the 'file' command
+- Identifying problem characters with 'od' and 'cat'
 - Counting Words - wc
 
 ## The Filesystem
 
 - Tour of the Filesystem
 - Filenames
-- Pathnames – absolute and relative
-- Changing Directories – cd
-- Listing Directories – ls
+- Pathnames -- absolute and relative
+- Changing Directories -- cd
+- Listing Directories -- ls
 - Command Syntax
 - Referring to Files & Directories
 - Navigating the Filesystem
@@ -115,7 +117,7 @@ On completion of this course, you will:
 - Linking Files - ln
 - Making Directories - mkdir
 - Removing Directories - rmdir
-- Determining File Contents with the ‘file’ command
+- Determining File Contents with the 'file' command
 - Exercise
 
 ## Using Shell Metacharacters
@@ -151,12 +153,9 @@ On completion of this course, you will:
 ## Pipes & Filters
 
 - Overview of Pipes & Filters
-
-<!-- -->
-
 - Paginating Files - pr
 - Viewing the Head or Tail of a File - head & tail
-- Extracting Vertical 'Slices' of a File – cut
+- Extracting Vertical \'Slices\' of a File -- cut
 - Merging Lines of Files - paste
 - Translating Characters - tr
 - Finding Data - grep
@@ -176,7 +175,7 @@ On completion of this course, you will:
 
 - Comparing Files - cmp
 - Getting Differences between Files - diff
-- Getting Commonalities across Files – comm
+- Getting Commonalities across Files -- comm
 - Exercise
 
 ## Sorting Files
@@ -194,8 +193,8 @@ On completion of this course, you will:
 - Permission Types
 - Permissions on Files
 - Permissions on Directories
-- Changing Permissions – Symbolic
-- Changing Permissions – Numeric
+- Changing Permissions -- Symbolic
+- Changing Permissions -- Numeric
 - Groups
 - Changing File Ownership
 - Becoming Root
@@ -204,8 +203,8 @@ On completion of this course, you will:
 
 ## Script-based Editing in Linux
 
-- The ‘ed’ Line Editor
-- The ‘sed’ Stream Editor
+- The 'ed' Line Editor
+- The 'sed' Stream Editor
 - sed - Pattern Space
 - sed - Addresses
 - sed - The hold and get Functions
@@ -215,7 +214,7 @@ On completion of this course, you will:
 
 ## The vi Editor
 
-- vi – A Visual Editor
+- vi -- A Visual Editor
 - Using vi
 - Exercise
 
@@ -236,7 +235,7 @@ On completion of this course, you will:
 - Finding Files by Name - locate
 - Exercise
 
-## The Pattern Scanning Utility – awk
+## The Pattern Scanning Utility -- awk
 
 - Command Line Syntax
 - Program Structure
@@ -257,7 +256,7 @@ On completion of this course, you will:
 
 ## Working Remotely
 
-- File Transfer – ftp & sftp
+- File Transfer -- ftp & sftp
 - Downloading Files Non-Interactively - wget
 - Secure Shell (Remote Access) - ssh
 - Secure Copy (Remote Copy) - scp
@@ -275,9 +274,6 @@ On completion of this course, you will:
 ## Shell Programming
 
 - Using variables
-
-<!-- -->
-
 - Program Control Flow
 - Conditional Execution
 - The test Command
